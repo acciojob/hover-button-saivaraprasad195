@@ -1,2 +1,25 @@
 
 /* Your CSS Code here. */
+body{
+	margin: 0px;
+	padding: 0px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn{
+    padding: 15px;
+    font-size: 22px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color:black;
+}
+
+#btn:hover{
+    background-color: yellow;
+    color: black;
+    border-radius: 30px;
+}
